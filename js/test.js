@@ -21,7 +21,7 @@ function getName() {
 
 function fillNames(user) {
   let content = `<div
-            class="bg-light rounded-5 p-2 text-capitalize text-primary"
+            class="bg-light rounded-5 p-2 text-capitalize text-primary text-center"
             id="user"
             onClick="userClicked(${user.id},this)"
           >
